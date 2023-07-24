@@ -1,7 +1,9 @@
 # RaumstatusmelderPi
 
-For now this is only locally usable.
-You will have to implement API stuff on your own, sorry
+For now this is only a local website that shows if the room is occupied or not.  
+The motion detector detects every 5 seconds if there is a movement
+- if there is movement, edits the status.json and requests the server.
+- if there was no movement for 60 seconds it edits the status.json and request the server
 
 ## Required Hardware
 
@@ -27,7 +29,7 @@ You will have to implement API stuff on your own, sorry
 - Storage: Choose your MicroSD Card
 - Settings: Here you can set the hostname, username and password by witch you can ssh into your pi and also set your first wireless connection
 
-3. Install pip, full python libs and requirements
+3. Install pip and requirements
 
 - `sudo apt-get install -y pip`
 - `pip -r requirements.text -y`
@@ -51,9 +53,10 @@ In `config/config.json` you can configure everythin you need.
 
 ### Start
 
-The code to be run is in the `Codes` directory  
-You have to run (best with `screen`) both `detect.py` and `server.py` over python
-I will add an automation to this soon
+~~The code to be run is in the `Codes` directory~~
+~~You have to run (best with `screen`) both `detect.py` and `server.py` over python~~
+> I will add an automation to this soon
+- You just have to launch the `launch.py` file to have it all running
 
 ## Useful Tutorials
 
