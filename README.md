@@ -29,9 +29,9 @@ You will have to implement API stuff on your own, sorry
 
 3. Install pip, full python libs and requirements
 
-- sudo apt-get install pip
-- sudo apt-get libpython2.7-stdlib
-- pip -r requirements.text
+- `sudo apt-get install pip`
+- `sudo apt-get install libpython2.7-stdlib`
+- `pip -r requirements.text`
 
 ## How to run
 
