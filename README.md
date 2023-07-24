@@ -1,5 +1,8 @@
 # RaumstatusmelderPi
 
+For now this is only locally usable.
+You will have to implement API stuff on your own, sorry
+
 ## Required Hardware
 
 1. [Raspberry Pi ZeroW](https://www.berrybase.de/raspberry-pi-zero-w)
@@ -46,6 +49,7 @@ In `config/config.json` you can configure everythin you need.
 
 The code to be run is in the `Codes` directory  
 You have to run (best with `screen`) both `detect.py` and `server.py` over python
+I will add an automation to this soon
 
 ## Useful Tutorials
 
