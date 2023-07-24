@@ -5,8 +5,8 @@ from helpers.file_utils import read_status_from_file, write_status_to_file, load
 
 app = Flask(__name__, template_folder="../templates")
 
-config = load_json_file("../config/config.json")
-status_file_path = "../config/status.json"
+config = load_json_file("config/config.json")
+status_file_path = "config/status.json"
 
 @app.route(f"/{config['get']}", methods=['GET'])
 def handle_motion_request():

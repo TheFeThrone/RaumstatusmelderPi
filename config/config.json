@@ -1,5 +1,5 @@
 {
-  "host": "fsraum.local", 
+  "host": "ai-rub.local",
   "port": 5000,
   "sleep_interval": 5,
   "detection_interval": 60,

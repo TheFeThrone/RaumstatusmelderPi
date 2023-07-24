@@ -3,12 +3,11 @@ import time
 import requests
 from helpers.file_utils import load_json_file, write_status_to_file
 
-
 class MotionDetector:
     def __init__(self, config):
         self.config = config
         self.WEB_URL = f"http://{config['host']}:{config['port']}/{config['get']}"
-        self.status_file_path = "../config/status.json"
+        self.status_file_path = "config/status.json"
         self.last_detection_time = 0
 
         GPIO.setmode(GPIO.BOARD)
@@ -46,6 +45,6 @@ class MotionDetector:
             GPIO.cleanup()
 
 if __name__ == "__main__":
-    config = load_json_file("../config/config.json")
+    config = load_json_file("config/config.json")
     detector = MotionDetector(config)
     detector.setupMotionDetection()
