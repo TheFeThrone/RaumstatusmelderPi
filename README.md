@@ -27,6 +27,12 @@ You will have to implement API stuff on your own, sorry
 - Storage: Choose your MicroSD Card
 - Settings: Here you can set the hostname, username and password by witch you can ssh into your pi and also set your first wireless connection
 
+3. Install pip, full python libs and requirements
+
+- sudo apt-get install pip
+- sudo apt-get libpython2.7-stdlib
+- pip -r requirements.text
+
 ## How to run
 
 ### Configuration
