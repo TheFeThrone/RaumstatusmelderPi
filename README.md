@@ -30,10 +30,8 @@ The motion detector detects every 5 seconds if there is a movement
 3. Install pip and requirements
    - `sudo apt-get install -y pip`
    - `pip -r requirements.text -y`
-
-## How to run
-
-### Configuration
+     
+## Configuration
 
 In `config/config.json` you can configure everythin you need. 
    ```json
@@ -48,7 +46,7 @@ In `config/config.json` you can configure everythin you need.
    }
    ```
 
-### Start
+## Launch
 
 ~~The code to be run is in the `Codes` directory~~  
 ~~You have to run (best with `screen`) both `detect.py` and `server.py` over python~~
