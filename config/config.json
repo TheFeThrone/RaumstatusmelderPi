@@ -1,0 +1,9 @@
+{
+  "host": "fsraum.local", 
+  "port": 5000,
+  "sleep_interval": 5,
+  "detection_interval": 60,
+  "get": "motion",
+  "status": "status",
+  "SENSOR_PIN": 7
+}
