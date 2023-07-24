@@ -24,7 +24,6 @@ You will have to implement API stuff on your own, sorry
 2. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to get started
 
 - OS: Any Raspbian will do it. I used Raspbian Lite 32Bit
-  - This will install everything you need to start. No other additional installations needed 
 - Storage: Choose your MicroSD Card
 - Settings: Here you can set the hostname, username and password by witch you can ssh into your pi and also set your first wireless connection
 
