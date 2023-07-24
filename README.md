@@ -25,7 +25,7 @@ The motion detector detects every 5 seconds if there is a movement
 
 2. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to get started
 
-- OS: Any Raspbian will do it. I used Raspbian 32Bit (Dont try Lite.. you will not be able to find whats missing as requirement)
+- OS: Any Raspbian will do it. I used Raspbian Lite 32Bit
 - Storage: Choose your MicroSD Card
 - Settings: Here you can set the hostname, username and password by witch you can ssh into your pi and also set your first wireless connection
 
