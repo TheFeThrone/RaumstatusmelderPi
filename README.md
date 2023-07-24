@@ -4,7 +4,7 @@
 
 1. [Raspberry Pi ZeroW](https://www.berrybase.de/raspberry-pi-zero-w)
  - With or without GPIO header
-   - If without then buy a [GPIO header](https://www.berrybase.de/40-pin-gpio-header-fuer-raspberry-pi-farbig-kodiert-simple-version) too
+   - If without then buy a [GPIO header](https://www.berrybase.de/40-pin-gpio-header-fuer-raspberry-pi-farbig-kodiert-simple-version) too (You will have to solder it)
 3. Motion detector: [PIR HC-SR501](https://www.berrybase.de/hc-sr501-pir-sensor-infrarot-bewegungsmelder)
 4. [F/F Jumper Wires](https://www.berrybase.de/40pin-jumper/dupont-kabel-female-female-trennbar)
 5. MicroSD Card of any size
@@ -46,3 +46,8 @@ In `config/config.json` you can configure everythin you need.
 
 The code to be run is in the `Codes` directory  
 You have to run (best with `screen`) both `detect.py` and `server.py` over python
+
+## Useful Tutorials
+
+[How to solder header pins to the Raspberry Pi Zero (W)](https://www.youtube.com/watch?v=UDdbaMk39tM)  
+[Detecting motion with a Raspberry Pi Zero W ](https://www.youtube.com/watch?v=pSSn4u3xGIg)
