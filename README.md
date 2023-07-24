@@ -27,3 +27,21 @@
 ## How to run
 
 ### Configuration
+
+In `config/config.json` you can configure everythin you need. 
+```json
+{
+  "host": "YOUR HOSTNAME", 
+  "port": THE PORT YOU WANT TO RUN THE SERVER FROM,
+  "sleep_interval": INTERVAL IN WHICH THE DETECTOR WILL LOOK FOR MOVEMENT,
+  "detection_interval": INTERVAL IN WHICH ABSCENCE CAN BE DECIDED: if nothing has moved during this time, the room is empty,
+  "get": "SUBDIRECTORY THAT THE DETECTOR IS GOING TO REQUEST",
+  "status": "SUBDIRECTORY IN WHICH THE status.json WILL BE MIRRORED IN",
+  "SENSOR_PIN": SENSOR PIN NUMBER DEPENDNG ON THE MODE YOU CHOSE (Default = BOARD)
+}
+```
+
+### Start
+
+The code to be run is in the `Codes` directory  
+You have to run (best with `screen`) both `detect.py` and `server.py` over python
